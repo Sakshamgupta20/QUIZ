@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.quiz.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/quiz" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q1:"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" What are John Abraham and Akshay Kumar's professions in Garam Masala?"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+</LinearLayout>
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radiogroup1"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reporter"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="50dp"/>
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Photographers"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="50dp"/>
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Professors"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="50dp"/>
+        <RadioButton
+            android:id="@+id/radio4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Layers"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="50dp"/>
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q2:"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Aishwarya Rai was crowned Miss World in which year?"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radiogroup2"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/radio5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1992"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="50dp"/>
+        <RadioButton
+            android:id="@+id/radio6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1993"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="50dp"/>
+        <RadioButton
+            android:id="@+id/radio7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1994"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="50dp"/>
+        <RadioButton
+            android:id="@+id/radio8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1995"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="50dp"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q3:"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" The name of Saif Ali Khan's daughter is...?"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radiogroup3"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/radio9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sara"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="50dp"/>
+        <RadioButton
+            android:id="@+id/radio10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zara"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="50dp"/>
+        <RadioButton
+            android:id="@+id/radio11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reha"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="50dp"/>
+        <RadioButton
+            android:id="@+id/radio12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mehnaz"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="50dp"/>
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q4:"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  In which film did Aishwarya Rai pretended to play twins?"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radiogroup4"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/radio13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Josh"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="50dp"/>
+        <RadioButton
+            android:id="@+id/radio14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jeans"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="50dp"/>
+        <RadioButton
+            android:id="@+id/radio15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dhoom 2"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="50dp"/>
+        <RadioButton
+            android:id="@+id/radio16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Devdas"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="50dp"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q5:"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Which great star received the award of The Star of the Millenium from BBC?"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radiogroup5"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/radio17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dilip Kumar"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="50dp"/>
+        <RadioButton
+            android:id="@+id/radio18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amitabh Bacchan"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="50dp"/>
+        <RadioButton
+            android:id="@+id/radio19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Javed Jaffery"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="50dp"/>
+        <RadioButton
+            android:id="@+id/radio20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sunny Deol"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="50dp"/>
+    </RadioGroup>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+
+        android:textAllCaps="true"
+        android:onClick="submit"
+        android:background="#F44336"
+        android:text="Submit"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#880E4F"
+        android:id="@+id/score"
+        android:textStyle="italic"
+        android:textSize="30sp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+
+        android:textAllCaps="true"
+        android:onClick="restart"
+        android:text="Restart Quiz"
+        android:background="#03A9F4"/>
+</LinearLayout>
+</ScrollView>
+
